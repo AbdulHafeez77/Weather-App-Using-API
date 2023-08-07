@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="container">
+    <div class="container-xxl">
+        <div class="card mt-3 my-card" style="width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title">Weather App</h4>
+                <input type="search" name="" id="weather-location" class="weather-location" placeholder="Enter Your City">
+                <span class="search" onclick="getWeather()"> 🔍 </span>
+                <h2 id="city"></h2>
+                <h3 id="country"></h3>
+                <div class="weather">
+                    <div id="boxes" class="temperature">
+                        <h1 id="temperature"></h1>
+                        <h2 id="weather-type"></h2>
+                    </div>
+                </div>
+                <div class="further-details">
+                    <div id="boxes" class="temperature mt-3">
+                        <h5> Humidity: </h5>
+                        <h5 id="humidity"></h5>
+                    </div>
+                    <div id="boxes" class="temperature mt-3">
+                        <h5> Wind Speed: </h5>
+                        <h5 id="wind-speed"> </h5>
+                    </div>
+                    <div id="boxes" class="temperature mt-3">
+                        <h5> Clouds: </h5>
+                        <h5 id="clouds"> </h5>
+                    </div>
+                    <div id="boxes" class="temperature mt-3">
+                        <h5> Feels Like: </h5>
+                        <h5 id="feels-like"></h5>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
