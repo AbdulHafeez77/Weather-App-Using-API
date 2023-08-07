@@ -71,7 +71,7 @@ navigator.geolocation.getCurrentPosition((location) => {
                     }
                 }
             }
-            var x = window.matchMedia("(min-width: 320px)");
+            var x = window.matchMedia("(min-width: 415px)");
             myFunction(x);
             
             x.addListener(function(x) {
@@ -145,7 +145,7 @@ let getWeather = () => {
                     }
                 }
             }
-            var x = window.matchMedia("(min-width: 320px)");
+            var x = window.matchMedia("(min-width: 415px)");
             myFunction(x);
             
             x.addListener(function(x) {
